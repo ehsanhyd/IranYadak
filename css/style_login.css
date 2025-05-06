@@ -1,0 +1,188 @@
+@font-face/*شبنم*/ /*Shabnam*/ {
+    font-family: 'Shabnam';
+    src:url('../fonts/Shabnam-Bold.woff2'),
+        url('../fonts/Shabnam-Bold.woff');
+    font-weight: normal !important;
+}
+body{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal !important;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color: rgb(196, 216, 234);
+}
+html{
+    height: 100%;
+    margin: 0%;
+    padding: 0;
+}
+#main{
+    display: block;
+    background-color: white;
+    margin: 7% auto !important;
+    margin-top: 7% !important;
+    width: 60%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.578);
+    border-radius: 15px;
+}
+#inmain_right{
+    display: block;
+    float: right;
+    border-radius: 15px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+#inmain_left{
+    display: block;
+    float: right;
+    background-color: rgb(100, 52, 162);
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius:  98px;
+    border-top-right-radius: 98px;
+}
+#inmain_left h1{
+    font-size: 190%;
+    text-align: center;
+    margin-top: 22%;
+    font-weight: normal;
+    font-family: 'Shabnam' , sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: default;
+}
+#h1help{
+    font-size: 110% !important;
+    font-weight: normal;
+    font-family: 'Shabnam' , sans-serif;
+    width: 85%;
+    color: rgba(255, 255, 255, 0.537);
+    margin-top: 10% !important;
+    margin: auto;
+    cursor: default;
+}
+#inmain_left a{
+    display: block;
+    float: right;
+    margin-right: 33.1%;
+    margin-top: 17%;
+    font-family: 'Shabnam' , sans-serif;
+    font-size: 130%;
+    color: white;
+    background-color: rgb(100, 52, 162) !important;
+    padding: 1.8%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#inmain_left a:hover{
+    cursor: pointer;
+    transition: 0.2s ease;
+    background-color: aliceblue !important;
+    color: black;
+}
+#inmain_left a:not(:hover){
+    cursor: pointer;
+    transition: 0.2s ease;
+    background-color: rgba(169, 161, 162, 0.77);
+}
+#h1top{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Shabnam' , sans-serif;
+    cursor: default;
+}
+#h1helptop{
+    cursor: default;
+    text-align: center;
+    font-size: 110%;
+    font-family: 'Shabnam' , sans-serif;
+    margin-top: 6%;
+}
+.inp_text{
+    width: 73%;
+    padding: 1%;
+    border-radius: 8px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgba(152, 156, 159, 0.601);
+    height: 7%;
+    font-size: 120%;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    padding-right: 2%;
+    color: rgb(0, 0, 0);
+}
+#send{
+    width: 20% !important;
+    height: 8% !important;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 130%;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    border: 1px solid white;
+    padding-right: 2%;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(100, 52, 162);
+    color: white;
+    cursor: pointer;
+}
+#send:hover{
+    transition: 0.2s ease;
+    background-color: aquamarine;
+    color: black;
+    border: 0px;
+}
+#send:not(:hover){
+    transition: 0.2s ease;
+}
+#inmain_right a{
+    display: block;
+    margin-right: 27.5%;
+    margin-top: 6%;
+    font-size: 110%;
+    text-decoration: none;
+    font-family: 'Shabnam' , sans-serif;
+}
+#name_p{
+    background-color: white;
+    border: 0px;
+    cursor: default;
+    font-family: 'Shabnam' , sans-serif;
+    font-size: 130%;
+    margin-right: 19%;
+    font-weight: normal;
+}
+.eshtep{
+    text-align: center !important;
+    display: block !important;
+    margin-right: 0% !important;
+    margin-left: 1% !important;
+    color: red;
+}
+.inp_text_eshtep{
+    width: 73%;
+    padding: 1%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgba(152, 156, 159, 0.601);
+    height: 7%;
+    font-size: 120%;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    padding-right: 2%;
+    color: rgb(0, 0, 0);
+    border: 1px solid red !important;
+}

@@ -1,0 +1,176 @@
+@font-face/*شبنم*/ /*Shabnam*/ {
+    font-family: 'Shabnam';
+    src:url('../fonts/Shabnam-Bold.woff2'),
+        url('../fonts/Shabnam-Bold.woff');
+}
+body{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal !important;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color: rgb(208, 221, 233);
+}
+html{
+    height: 100%;
+}
+#main{
+    background-color: white !important;
+    display: block;
+    margin: 7% auto !important;
+    margin-top: 7% !important;
+    width: 60%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.578);
+    border-radius: 15px;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+}
+#inmain_right{
+    display: block;
+    float: right;
+    border-radius: 15px;
+    background-color: white;
+    width: 50%;
+    height: 100% !important;
+}
+#inmain_left{
+    display: block;
+    float: right;
+    background-color: rgb(100, 52, 162);
+    width: 50%;
+    height: 100% !important;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius:  98px;
+    border-top-right-radius: 98px;
+}
+#h1top{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Shabnam' , sans-serif;
+    cursor: default;
+    font-weight: normal !important;
+}
+#h1helptop{
+    cursor: default;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal !important;
+    margin-top: 3%;
+    font-weight: normal;
+}
+.inp_text{
+    width: 73%;
+    padding: 1%;
+    padding-bottom: 0.7% !important;
+    border-radius: 8px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgba(152, 156, 159, 0.601);
+    height: 7%;
+    font-size: 120%;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal !important;
+    padding-right: 2% !important;
+    color: rgb(0, 0, 0);
+}
+#send{
+    width: 20% !important;
+    height: 8% !important;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 130%;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal !important;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(100, 52, 162);
+    color: white;
+    cursor: pointer;
+}
+#send:hover{
+    transition: 0.2s ease;
+    background-color: aquamarine;
+    color: black;
+    border: 0px;
+}
+#send:not(:hover){
+    transition: 0.2s ease;
+}
+#inmain_left h1{
+    font-size: 190%;
+    text-align: center;
+    margin-top: 22%;
+    font-weight: normal;
+    font-family: 'Shabnam' , sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: default;
+}
+#h1help{
+    font-size: 110% !important;
+    font-weight: normal;
+    font-family: 'Shabnam' , sans-serif;
+    width: 85%;
+    color: rgba(255, 255, 255, 0.537);
+    margin-top: 10% !important;
+    margin: auto;
+    cursor: default;
+}
+#inmain_left a{
+    display: block;
+    float: right;
+    margin-right: 33.1%;
+    margin-top: 17%;
+    font-family: 'Shabnam' , sans-serif;
+    font-size: 130%;
+    color: white;
+    background-color: rgb(100, 52, 162) !important;
+    padding: 1.8%;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#inmain_left a:hover{
+    cursor: pointer;
+    transition: 0.2s ease;
+    background-color: aliceblue !important;
+    color: black;
+}
+#inmain_left a:not(:hover){
+    cursor: pointer;
+    transition: 0.2s ease;
+    background-color: rgba(169, 161, 162, 0.77);
+}
+#link{
+    display: block;
+    float: right;
+    text-decoration: none;
+    border-bottom: 2px dashed rgb(89, 89, 232);
+    color:rgb(89, 89, 232);
+    font-family: 'Shabnam' , sans-serif;
+    font-size: 130%;
+    text-align: center;
+    margin: auto;
+    margin-right: 1.2% !important;
+    margin-top: 1.5% !important;
+}
+#h1link{
+    cursor: default;
+    font-size: 115%;
+    font-weight: normal;
+    display: block;
+    float: right;
+    margin-right: 29.5%;
+}
+.hidden{
+    display: none;
+}

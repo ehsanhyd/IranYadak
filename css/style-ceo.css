@@ -1,0 +1,182 @@
+@font-face/*شبنم*/ /*Shabnam*/ {
+    font-family: 'Shabnam';
+    src:url('../fonts/Shabnam-Bold.woff2'),
+        url('../fonts/Shabnam-Bold.woff');
+    font-weight: normal !important;
+}
+body{
+    background-image: url('background-body.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'tahoma' , sans-serif;
+    font-weight: normal;
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 5% !important;
+    overflow: scroll-top;   
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#menu{
+    margin: auto;
+    margin-top: 8px;
+    font-family: 'tahoma', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+    background-color :white;
+    border-radius: 8px;
+    height: 115px;
+    width: 86.5%;   
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+}
+#logo{
+    border-radius: 8px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.link_menu{
+    font-family: 'tahoma', sans-serif;
+    font-size: 110%;
+    text-decoration:none ;
+    color: black;
+    float: right;
+    cursor: hand;
+    margin-right: 5%;
+    margin-top: 46px;
+}
+.link_menu:hover{
+    color: darkslategrey;
+}
+#link_saf{
+    margin-right: 5%;
+}
+#search{
+    width: 17%;
+    font-family: 'tahoma', sans-serif;
+    font-size: 80%;
+    padding-bottom: 0.99%;
+    padding-top: 0.99%;
+    padding-left: 0.99%;
+    border-radius: 5px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 2.9%;
+    border: 2px solid rgb(65, 64, 64);
+    background-color: #e2e2e2;
+}
+#send{
+    text-align: center;
+    font-family: 'tahoma', sans-serif;
+    font-size: 100%;
+    float: right;
+    margin-right: 1%;
+    margin-top: 2.9%;
+    width: 6.5%;
+    padding: 0.80%;
+    padding-bottom: 1.2%;
+    background-color: teal;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+}
+#send:hover{
+    background-color: aquamarine;
+    transition: background-color 0.2s ease-out;
+}
+#send:not(:hover){
+    transition: background-color 0.2s ease-in;
+}
+#icon-shoping{
+    margin-top: 3.5%;
+    margin-right: 2.3%;
+    width: 3%;
+    height: 30%;
+    cursor: pointer;
+}
+#main{
+    background-color: #edf3f4e1;
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 2%;
+    padding: 1%;
+}
+.top{
+    font-family: 'Shabnam',sans-serif ;
+    font-weight: lighter;
+    fill: black;
+    font-size: 140%;
+    margin-right: 0.7%;
+}
+.divkala{
+    padding: 1.1%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 18%;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+    cursor: pointer;
+}
+.divkala:hover{
+    transition: 0.2s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+    background-color: #e0dddd;
+    cursor: pointer;
+}
+.divkala:not(:hover){
+    transition: 0.3s ease;
+}
+#h1product{
+    text-align: center;
+    font-size: 125%;
+    font-weight: normal;
+    font-family: 'Shabnam' , sans-serif;
+}
+.imgproduct{
+    display: block;
+    margin: auto;
+    width: 87%;
+    height: 250px;
+    min-height: 5%;
+    margin-left: 7%;
+    margin-top: 4%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+}
+.hidden{
+    display: none;
+}
+#link{
+    font-family: 'Shabnam' , sans-serif;
+    font-size: 105%;
+    color: black;
+    background-color: rgba(169, 161, 162, 0.77);
+    padding: 2%;
+    text-align: center;
+    margin-right: 22.1%;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#link:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: aquamarine;
+}
+#link:not(:hover){
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: rgba(169, 161, 162, 0.77);
+}

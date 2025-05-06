@@ -1,0 +1,295 @@
+@font-face/*شبنم*/ /*Shabnam*/ {
+    font-family: 'Shabnam';
+    src:url('../fonts/Shabnam-Bold.woff2'),
+        url('../fonts/Shabnam-Bold.woff');
+    font-weight: normal !important;
+}
+body{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll-top;   
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#baner{
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    float: right;
+    width: 13%;
+    height: 85%;
+    border-left: 1px solid black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.size-6{
+    width: 18px;
+    height: 18px;
+    gap: 2px;
+    padding: 0px;
+}
+.btnbaner{
+    display: block;
+    background-color: rgba(224, 221, 221, 0);
+    border: 0px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    font-size: 130%;
+    gap: 2px;
+}
+.btnbaner:focus{
+    background-color: #e0dddd;
+    padding: 3px;
+    border-radius: 8px;
+}
+#btn1{
+    margin-top: 20px;
+}
+hr{
+    width: 78%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+    color: rgba(139, 141, 144, 0.793);
+}
+#boshpiston{
+    float: right;
+    width: 86.9%;
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 13.1%;
+}
+#bushpiston-XU7:not(:hover){
+    transition: 0.2s ease;
+}
+.imgkala{
+    display: block;
+    margin: auto;
+    width: 87%;
+    height: 65%;
+    margin-left: 7%;
+    margin-top: 4%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+}
+#notebushpiston-xu7{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    float: right;
+    text-align: center;
+    height: 42px;
+    width: 150px;
+    margin-top: 7%;
+    margin-right: 15.5%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+.sabad{
+    border-radius: 8px;
+    background-color: rgba(169, 161, 162, 0.77);
+    font-size: 100%;
+    border: 0px;
+    width: 55%;
+    height: 30px;
+    margin-right: 21.9%;
+    cursor: pointer;
+}
+.sabad:hover{
+    transition: 0.3s ease;
+    background-color: aquamarine;
+}
+.sabad:not(:hover){
+    transition: 0.3s ease;
+}
+.divkala{
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 17%;
+    height: 340px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    display: block;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+    cursor: pointer;
+}
+.divkala:hover{
+    transition: 0.2s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+    background-color: #e0dddd;
+    cursor: pointer;
+}
+.divkala:not(:hover){
+    transition: 0.3s ease;
+}
+#notebushpiston-xu9{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    float: right;
+    text-align: center;
+    margin-right: 8.5%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+    width: 80%;
+}
+#notejaysopap-xu7{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 88%;
+    margin-right: 6%;
+    font-size: 120%;
+}
+#notebushsilender-xu7{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 48%;
+    height: 12.9%;
+    margin-right: 24%;
+    margin-top: 6.3%;
+    font-size: 120%;
+}
+#notebushpiston-takht-206{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 68%;
+    height: 12.9%;
+    margin-right: 14%;
+    margin-top: 6.3%;
+    font-size: 120%;
+}
+#notebushpiston-goud-206{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 68%;
+    height: 12.9%;
+    margin-right: 14%;
+    margin-top: 6.3%;
+    font-size: 120%;
+}
+#noteboshsilender-206{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 48%;
+    height: 12.9%;
+    margin-right: 24%;
+    margin-top: 6.3%;
+    font-size: 120%;
+}
+.notepiston206t2{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 68%;
+    height: 12.9%;
+    margin-right: 15%;
+    margin-top: 6.3%;
+    font-size: 120%;
+}
+.notepistongrafitipride{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    height: 12.9%;
+    margin-right: 4.5%;
+    margin-top: 6.3%;
+    font-size: 120%;
+    width: 90%;
+}
+.notepistonEF7{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    height: 12.9%;
+    margin-right: 14.5%;
+    margin-top: 6.3%;
+    font-size: 120%;
+    width: 70%;
+}
+.notepistonrd{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    text-align: center;
+    height: 12.9%;
+    margin-right: 15.5%;
+    margin-top: 6.3%;
+    font-size: 120%;
+    width: 70%;
+}
+#disk{
+    float: right;
+    width: 86.9%;
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 13.1%;
+}
+.notekitklach{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    font-size: 110%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+#disktormoz{
+    float: right;
+    width: 86.9%;
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 13.1%;
+}
+#kasetormoz{
+    float: right;
+    width: 86.9%;
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 13.1%;
+}
+.hidden{
+    display: none;
+}
+#link{
+    font-family: 'Shabnam' , sans-serif;
+    font-size: 100%;
+    color: black;
+    background-color: rgba(169, 161, 162, 0.77);
+    border-radius: 7px;
+    padding: 2%;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-top: 3%;
+    text-align: center;
+}
+#link:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: aquamarine;
+}
+#link:not(:hover){
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: rgba(169, 161, 162, 0.77);
+}

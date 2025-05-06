@@ -1,0 +1,965 @@
+@font-face/*شبنم*/ /*Shabnam*/ {
+    font-family: 'Shabnam';
+    src:url('../fonts/Shabnam-Bold.woff2'),
+        url('../fonts/Shabnam-Bold.woff');
+    font-weight: normal !important;
+}
+html{   
+    display: flexbox;
+    max-height: none !important;
+    overflow: visible !important;
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal !important;
+    height: auto;
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    right: initial; /* نوار به چپ منتقل می‌شود */
+    left: 100; /* جایگاه نوار در سمت چپ */
+}
+body{
+    display: flexbox;
+    max-height: none !important;
+    overflow: visible !important;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    font-family: 'shabnam' , sans-serif;
+    font-weight: normal !important;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: auto;
+    overflow: visible;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    min-height: 100vh;
+    overflow: hidden;
+    overflow: scroll;
+    background-image: url('background-body.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;   
+}
+body::-webkit-scrollbar {
+    display: none; /* برای مرورگرهای مبتنی بر کرومیوم */
+}#menu{
+    margin: auto;
+    margin-top: 8px;
+    font-family: 'Shabnam', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+    background-color :white;
+    border-radius: 8px;
+    height: 115px;
+    width: 86.5%;   
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+}
+#logo{
+    border-radius: 8px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.link_menu{
+    font-family: 'Shabnam', sans-serif;
+    font-size: 110%;
+    text-decoration:none ;
+    color: black;
+    float: right;
+    cursor: hand;
+    margin-right: 4.5%;
+    margin-top: 46px;
+}
+.link_menu:hover{
+    color: darkslategrey;
+}
+#link_saf{
+    margin-right: 5%;
+}
+#search{
+    width: 17%;
+    font-family: 'Shabnam', sans-serif;
+    font-size: 90%;
+    padding-bottom: 0.99%;
+    padding-top: 0.99%;
+    padding-left: 0.99%;
+    border-radius: 5px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 2.9%;
+    border: 2px solid rgb(65, 64, 64);
+    background-color: #e2e2e2;
+}
+#send{
+    text-align: center;
+    font-family: 'Shabnam', sans-serif;
+    font-size: 100%;
+    float: right;
+    margin-right: 1%;
+    margin-top: 3.1%;
+    width: 6.5%;
+    padding: 0.80%;
+    background-color: teal;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+}
+#send:hover{
+    background-color: aquamarine;
+    transition: background-color 0.2s ease-out;
+}
+#send:not(:hover){
+    transition: background-color 0.2s ease-in;
+}
+.icon-shoping{
+    margin-top: 3.3%;
+    margin-right: 1.0%;
+    width: 3%;
+    height: 30%;
+    cursor: pointer;
+}
+.size-6{
+    margin-left: 4px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 24px;
+    gap: 5px;
+}
+button svg {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+button svg circle {
+    display: none; /* مخفی‌کردن دایره‌ها */
+}
+button::before,
+button::after {
+    content: none; /* حذف محتوای اضافه */
+}
+li {
+    list-style: none; /* حذف نقطه */
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+}
+#main{
+    font-family: 'Shabnam', sans-serif;
+    font-weight: normal;
+    display: block;
+    margin: auto;
+    margin-top: 6%;   
+    width: 90%;
+    height: 400px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.578);
+}
+#mainright{
+    margin-right: 6%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 0px;
+    background-color: #b9b8b8;
+    float: right;
+    width: 30%;
+    height: 67%;
+    padding: 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.578);
+}
+h1{
+    font-weight: normal;
+    font-family: 'Shabnam', sans-serif;
+    display: flex;
+    font-size: 111%;
+    padding: 1.2%;
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height: 170%;
+    word-spacing: 100%;
+    cursor: default;
+}
+.hrm{
+    border: none;
+    font-weight: normal;
+    border-top: 2px solid #000000;
+    width: 92%; 
+    margin: 1.5% auto;
+    padding: 0px;
+}
+h2{
+    font-weight: normal;
+    font-family: 'IranNastaliq', sans-serif;
+    fill: All;
+    font-size: 365%;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-right: 20%;
+    word-spacing: 100%;
+    color: #211e29;
+    cursor: default;
+}
+#iconrightmain{
+    display: flex;
+    float: right;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+#h1divnote{
+    font-weight: normal;
+    line-height: 22px;
+    float: left;
+    font-family: 'Shabnam', sans-serif;
+    font-size: 128%;
+    border-bottom:2px dashed black ;
+    width: 29.5%;
+    height: 20%;
+    display: flex;
+    margin: 0px;
+    margin-top: 3.5%;
+    margin-left: 40.5%;
+    padding: 0px;
+    padding-bottom: 2px;    
+}
+#notedivnote{
+    font-weight: normal;
+    display: flex;
+    float: left;
+    width: 69%;
+    height: 1.5%;
+    border-bottom: 0px solid black;
+    color: rgba(21, 21, 21, 0.719);
+    font-size: 100%;
+    margin-left: 2px;
+    margin-bottom: 0px;
+}
+#divnoteicon:hover #iconrightmain{
+    transition: 0.4s ease;
+    transform: rotate(8deg);
+}
+#divnoteicon:not(:hover) #iconrightmain{
+    transition: 0.5s ease;
+}
+#divnoteicon{
+    float: right;
+    width: 28%;
+    height: 27.5%;
+    margin-top: 2.1%;
+    margin-right: 2.2%;
+    padding: 3px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+#divnoteicon:hover{ 
+    transition: 0.3s ease;
+    border-radius: 8px;
+    background-color: #e0dddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+}
+#divnoteicon:not(:hover){
+    transition: 0.5s ease;
+    border-radius: 8px;
+    background-color: white;
+}
+#divcash{
+    float: right;
+    width: 28%;
+    height: 27.5%;
+    margin-top: 2.1%;
+    margin-right: 2.2%;
+    padding: 3px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+#divcash:hover{
+    transition: 0.3s ease;
+    border-radius: 8px;
+    background-color: #e0dddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+}
+#divcash:not(:hover){
+    transition: 0.5s ease;
+    border-radius: 8px;
+    background-color: white;
+}
+#divcash:hover #cashrightmain{
+    transition: 0.4s ease;
+    transform: rotate(8deg);
+}
+#divcash:not(:hover) #cashrightmain{
+    transition: 0.5s ease;
+}
+#cashrightmain{
+    display: flex;
+    float: right;
+    float: top;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+#h1cash{
+    font-weight: normal;
+    line-height:22px;
+    float: left;
+    font-family: 'Shabnam', sans-serif;
+    font-size: 128%;
+    border-bottom: 0px solid black;
+    border-bottom:2px dashed black ;
+    width: 29.5%;
+    height: 20%;
+    display: flex;
+    margin: 0px;
+    margin-top: 3.5%;
+    margin-left: 38.9%;
+    padding: 0px;
+    padding-bottom: 2px;    
+}
+#notecash{
+    font-weight: normal;
+    display: flex;
+    float: left;
+    width: 65%;
+    height: 1.5%;
+    border-bottom: 0px solid black;
+    color: rgba(21, 21, 21, 0.719);
+    font-size: 100%;
+    margin-left: 2.2%;
+    margin-bottom: 0px;
+}
+#divbrand{
+    float: right;
+    width: 28%;
+    height: 27.5%;
+    margin-top: 2.1%;
+    margin-right: 2.2%;
+    padding: 3px;
+    padding-top: 0px;
+    padding-bottom: 3%;
+}
+#brand{
+    display: flex;
+    float: right;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+#divbrand:hover{
+    transition: 0.3s ease;
+    border-radius: 8px;
+    background-color: #e0dddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+}
+#divbrand:not(:hover){
+    transition: 0.5s ease;
+    border-radius: 8px;
+    background-color: white;
+}
+#divbrand:hover #brand{
+    transition: 0.4s ease;
+    transform: rotate(8deg);
+}
+#divbrand:not(:hover) #brand{
+    transition: 0.5s ease;
+}
+#h1brand{
+    float: left;
+    font-weight: normal;
+    font-family: 'Shabnam', sans-serif;
+    font-size: 112.5%;
+    border-bottom: 0px solid black;
+    border-bottom: 2px dashed black;
+    width: 36.8%;
+    height: 20%;
+    display: flex;
+    margin: 0px;
+    margin-top: 3.5%;
+    margin-left: 30.4%;
+    line-height: 22px;
+    padding: 0px;
+    padding-bottom: 2px;  
+}
+#notebrand{
+    font-weight: normal;
+    display: flex;
+    float: left;
+    width: 65%;
+    height: 1.5%;
+    border-bottom: 0px solid black;
+    color: rgba(21, 21, 21, 0.719);
+    font-size: 100%;
+    margin-left: 2.2%;
+    margin-bottom: 0px;
+}
+#divservice{
+    float: right;
+    width: 28%;
+    height: 27.5%;
+    margin-top: 2.1%;
+    margin-right: 2.2%;
+    padding: 3px;
+    padding-top: 0px;
+    padding-bottom: 3%;
+}
+#service{
+    display: flex;
+    float: right;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+#divservice:hover{
+    transition: 0.3s ease;
+    border-radius: 8px;
+    background-color: #e0dddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+}
+#divservice:not(:hover){
+    transition: 0.5s ease;
+    background-color:  white;
+    border-radius: 8px;
+}
+#divservice:hover #service{
+    transition: 0.4s ease;
+    transform: rotate(8deg);
+}
+#divservice:not(:hover) #service{
+    transition: 0.5s ease;
+}
+#h1service{
+    float: left;
+    font-weight: normal;
+    font-family: 'Shabnam', sans-serif;
+    font-size: 117.5%;
+    border-bottom: 0px solid black;
+    border-bottom: 2px dashed black;
+    border-width: 2px;
+    width: 42.8%;
+    height: 20%;
+    display: flex;
+    margin: 0px;
+    margin-top: 3.5%;
+    margin-left: 24.4%;
+    line-height:22px;
+    padding: 0px;
+    padding-bottom: 2px;  
+}
+#noteservice{
+    font-weight: normal;
+    display: flex;
+    float: left;
+    width: 65%;
+    height: 1.5%;
+    margin-left: 2.2%;
+    border-bottom: 0px solid black;
+    color: rgba(21, 21, 21, 0.719);
+    font-size: 100%;
+    margin-bottom: 0px;
+}
+#main2{
+    font-family: 'Shabnam', sans-serif;
+    font-weight: normal;
+    display: flexbox;
+    float: right;
+    margin: auto;
+    margin-top: 3px;
+    width: 100%;
+    height: 370px;
+    background-color:white ;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 450% 200%;
+    border-bottom-right-radius: 450% 200%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.578);
+}
+#main2:hover #logoiranpart{
+    transition: 0.3s ease;
+    width: 15.1%;
+    height: 53%;
+    margin-right: 43.2%;
+}
+#main2:not(:hover) #logoiranpart{
+    transition: 0.3s ease;
+}
+#main2:hover #downlogo{
+    transition: 0.3s ease;
+    display: flex;
+    font-size: 350%;
+    margin-right: 30%;
+    margin-top: 12%;
+    text-align: center;
+    width: 55%;
+}
+#main2:not(:hover) #downlogo{
+    transition: 0.2s ease;
+    width: 50%;
+}
+#main2:hover #namelogo{
+    transition: 0.2s ease;
+    margin-right: 43.5%;
+    font-size: 160%;
+}
+#main2:not(:hover) #namelogo{
+    transition: 0.2s ease;
+}
+#logoiranpart{
+    display: flex;
+    float: right;
+    margin: auto;
+    margin-right: 45%;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+#downlogo{
+    display: flex;
+    margin-top: 12%;
+    margin-right: 32.9%;
+    font-size: 300%;
+    height: 10%;
+    border-bottom: 0px;
+    padding: 0px;
+}
+#namelogo{
+    color: #686464db;
+    display: flex;
+    margin-top: 0px;
+    font-size: 130%;
+    border-bottom: 0px;
+    margin-right: 44.8%;
+    float: right;
+}
+#mahsolat{
+    background-color: white;
+    border-top-left-radius: -450% -200%;
+    border-top-right-radius: -450% -200%;
+    margin-top: 5px;
+    height: 72%;
+}
+#nm{
+    margin-right: 1px;
+    margin-bottom: 1%;
+    border-bottom: 0px solid black;
+    font-size: 130%;
+    height: 5px;
+}
+#iconmahsolat{
+    border-right: 2px solid black;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+#picmahsolat{
+    height: 805px;
+    background-color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.578);
+}
+.divmahsol{
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 17%;
+    height: 350px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    display: block;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+    cursor: pointer;
+}
+#divbushpiston{
+    border-radius: 15px;
+    width: 17%;
+    height: 350px;
+    float: right;
+    margin-right: 1.5%;
+    margin-top: 2%;
+    display: block;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+    cursor: pointer;
+}
+#divbushpiston:hover{
+    transition: 0.2s ease-out;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+    background-color: #e0dddd;
+    cursor: pointer;
+}
+#divbushpiston:not(:hover){
+    transition: 0.2s ease;
+}
+.divmahsol:hover {
+    transition: 0.2s ease-out;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+    background-color: #e0dddd;
+    cursor: pointer;
+}
+.divmahsol:not(:hover){
+    transition: 0.2s ease-in;
+}
+.imgmahsol{
+    display: block;
+    margin: auto;
+    width: 87%;
+    height: 75%;
+    margin-left: 7%;
+    margin-top: 4%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.578);
+}
+.divnotemahsol{
+    float: bottom;
+    display: block;
+    cursor: pointer;
+}
+#notebushpiston{
+    float: right;
+    text-align: center;
+    margin-right: 12%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notedisk{
+    float: right;
+    margin-top: 8%;
+    margin-right: 28.5%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notebolbering{
+    float: right;
+    margin-top: 8%;
+    margin-right: 37%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notedisktor{
+    float: right;
+    margin-top: 8%;
+    margin-right: 31.5%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notekfanar{
+    float: right;
+    margin-top: 8%;
+    margin-right: 36%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#divsham{
+    margin-right: 1.5%;
+}
+#notesham{
+    float: right;
+    margin-top: 8%;
+    margin-right: 40%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+    width: 195px;
+}
+#notesarcharkh{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    float: right;
+    margin-top: 8%;
+    margin-right: 35.5%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notelenttor{
+    float: right;
+    margin-top: 8%;
+    margin-right: 35.2%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notetasmetime{
+    float: right;
+    margin-top: 8%;
+    margin-right: 31.5%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notetasmedinam{
+    float: right;
+    margin-top: 8%;
+    margin-right: 32%;
+    cursor: pointer;
+    display: block;
+    border-bottom: 0px;
+    font-size: 120%;
+}
+#notema{
+    padding: 5px;
+    padding-right: 8px;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.578);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: right;
+}
+p{
+    line-height: 25px;
+    word-spacing: 3px;
+    width: 99%;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 100%;
+    font-family: 'shabnam' , sans-serif;
+    font-weight: normal;
+    cursor: default;
+}
+#darbarema{
+    display: block;
+    float: right;
+    width: 15%;
+    margin-right: 12%;
+    margin-top: 10px;
+}
+#whatsapp{
+    margin-right: 13%;
+    width: 23%;
+    height: 22%;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+#telegram{
+    width: 25%;
+    height: 24%;
+    margin-right: 1%;
+    cursor: pointer;
+}
+#callnetwork{
+    float: right;
+    line-height: 24px;  
+    height: 16px;
+    font-family: 'Shabnam' , sans-serif;
+    border-bottom: 0px solid black;
+}
+#iconchat{
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 24px;
+    gap: 5px;
+}
+#email{
+    display: block;
+    float: right;
+    margin-right: 17%;
+    margin-top: 10px;
+}
+.noteemail{
+    border-bottom: 0px solid black;
+    margin-right: 72px;
+    height: 20px;
+}
+#kemail{
+    color: #9d9b9b;
+    margin-left: 10px;
+    margin-right: 3px;
+    font-size: 100%;
+}
+#call{
+    display: block;
+    float: right;
+    margin-right: 305px;
+    margin-top: 10px;
+    width: 10%;
+}
+#h1call{
+    border-bottom: 0px solid black;
+    height: 20px;
+}
+#phone{
+    color: #9d9b9b;
+    border:0px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+#akhar{
+    float: right;
+    display: flexbox;
+    margin-top: 30px;
+    background-color: rgba(192, 185, 185, 0.516);
+    height: 220px;
+    width: 100%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.578);
+}
+.divakhar{
+    display: block;
+    float: right;
+    margin-top: 20px;
+}
+#divsupport{
+    margin-right: 12%;
+}
+#divsupport:hover #support{
+    transition: 0.6s ease;
+    transform: rotate(360deg);
+    width: 87px;
+    height: 87px;
+    margin-right: 25px;
+}
+#divsupport:not(:hover) #support{
+    transition: 0.5s ease;
+    width: 50px;
+    height: 50px;
+    margin-right: 45px;
+}
+#support{
+    width: 100px;
+    height: 100px;
+    margin-right: 53px;
+    padding-bottom: 0px;
+}
+#pasokh{
+    font-weight: normal;
+    padding-top: 0px;
+    width: 100%;
+    height: 0px;
+    border-bottom: 0px;
+    color: #777070;
+}
+#divgaranty{
+    margin-right: 15%;
+    position: relative;
+    display: flexbox;
+    justify-content: space-between;
+}
+#divgaranty:hover #garanty{
+    transition: 0.6s ease;
+    width: 87px;
+    height: 87px;
+    padding: 0px;
+    margin-bottom: 0px;
+    transform: rotate(360deg);
+}
+#divgaranty:not(:hover) #garanty{
+    transition: 0.5s ease;
+    width: 50px;
+    height: 50px;
+    margin-right: 19px;
+}
+#garanty{
+    width: 92px;
+    height: 92px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#notegaranty{
+    font-family: 'Shabnam' , sans-serif;
+    font-weight: normal;
+    width: 100%;
+    border-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 8px;
+    color: #777070;
+}
+#divasl{
+    display: flexbox;
+    justify-content: space-between;
+    margin-right: 15%;
+    position: relative;
+    overflow: hidden;
+}
+#divasl:hover #asl{
+    transition: 0.6s ease;
+    transform: rotate(360deg);  
+    margin-right: 30px;
+    width: 87px;
+    height: 87px;
+}
+#divasl:not(:hover) #asl{
+    transition: 0.5s ease;
+    width: 50px;
+    height: 50px;
+    margin-right: 53px;
+}
+#asl{
+    padding-right: 10px;
+}
+#noteasl{
+    font-weight: normal;
+    border-bottom: 0px;
+    margin-top: 5px;
+    padding: 0px;
+    color: #777070;
+}
+#divpackage{
+    margin-right: 15%;
+    position: relative;
+}
+#divpackage:hover #package{
+    transition: 0.6s ease;
+    width: 87px;
+    height: 87px;
+    margin-right: 18px;
+    transform: rotate(360deg);
+}
+#divpackage:not(:hover) #package{
+    transition: 0.5s ease;
+    width: 50px;
+    height: 50px;
+}
+#package{
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: 50px;
+    margin-right: 35px;
+}
+#notepackage{
+    font-weight: normal;
+    border-bottom: 0px;
+    padding: 0px;
+    margin-top: 3px;
+    color: #777070;
+}
+hr {
+    border: none;
+    border-top: 2px solid #cbc1bf;
+    width: 70%; 
+    margin-top: 169px;
+    margin-left: 700px;
+    padding: 0px;
+}
+#iconmonitor{
+    height: 22px;
+    border-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#trah{
+    font-weight: normal;
+    border-bottom: 0px;
+    font-size: 14px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
